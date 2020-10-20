@@ -1,0 +1,257 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.contact p {
+    margin-top: 15px;
+    line-height: 0.5;
+}
+
+.tel {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.city {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.log {
+    margin-right: 45px;
+}
+
+.navig a {
+    color: #2B2B2B;
+    margin-right: 33px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.nav-pan {
+    height: 74px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.description {
+    position: absolute;
+    top: 125px;
+}
+
+.description h1 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+    ;
+}
+
+.description p {
+    width: 47%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    color: #FFFFFF;
+}
+
+.description input {
+    width: 217px;
+    height: 51px;
+    background: #FFFFFF;
+    box-shadow: inset 2px 2px 6px rgba(90, 90, 90, 0.65);
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 20px;
+    margin-right: 17px;
+    border: none;
+    color: #8C8C8C;
+}
+
+.description button {
+    width: 214px;
+    height: 51px;
+    background: #D51522;
+    box-shadow: 0px 2px 8px rgba(65, 65, 65, 0.25);
+    border: none;
+    border-radius: 0px;
+}
+
+.description button:hover {
+    border: 2px solid white;
+    background-color: #D51522;
+}
+
+.news {
+    margin-top: 84px;
+    margin-bottom: 62px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 39px;
+    /* identical to box height */
+    text-align: center;
+    color: #2B2B2B;
+}
+
+.red-sq {
+    width: 349px;
+    height: 243px;
+    background: #D51522;
+}
+
+.blue-sq {
+    position: absolute;
+    width: 349px;
+    height: 243px;
+    left: 940px;
+    top: 780px;
+    background: #6F61A0;
+}
+
+.white-sq {
+    position: absolute;
+    width: 349px;
+    height: 243px;
+    left: 940px;
+    top: 780px;
+    background: white;
+}
+
+.news-block {
+    width: 349px;
+    height: 243px;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+}
+
+.card-red {
+    -webkit-box-shadow: -20px -20px 0px 0px rgba(213,21,34,1);
+-moz-box-shadow: -20px -20px 0px 0px rgba(213,21,34,1);
+box-shadow: -20px -20px 0px 0px rgba(213,21,34,1);
+}
+
+.card-purp {
+    -webkit-box-shadow: 20px 20px 0px 0px rgba(111,97,160,1);
+-moz-box-shadow: 20px 20px 0px 0px rgba(111,97,160,1);
+box-shadow: 20px 20px 0px 0px rgba(111,97,160,1);
+}
+
+.card {
+    
+    width: 349px;
+    height: 243px;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.card-back {
+    position: absolute;
+width: 349px;
+height: 243px;
+left: 150px;
+top: 752px;
+
+background: #D51522;
+
+}
+
+.card-body {
+    padding: 34px 27px;
+}
+
+.card-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    color: #2B2B2B;
+}
+
+.card-date {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #636363;
+}
+
+.btn-details {
+    margin-top: 30px;
+    width: 156px;
+    height: 44px;
+    background-color: white;
+    border-radius: 0px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: center;
+    color: #D51522;
+    border: 1px solid #D51522;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 2px 8px rgba(65, 65, 65, 0.25));
+}
+
+.btn-details:hover {
+    font-weight: bold;
+    filter: drop-shadow(15px 15px 15px rgba(65, 65, 65, 0.25));
+}
+
+.bdown {
+    margin-top: 105px;
+    height: 163px;
+    background: #211F2B;
+}
+
+.bmenu {
+    list-style-type: none;
+  
+    padding-top: 70px;
+}
+
+.logo-big {}
+
+.bmenu li {
+    
+    display: inline;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-right: 33px;
+}
